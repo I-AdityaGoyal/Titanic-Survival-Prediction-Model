@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 
-pipeline = pickle.load(open("pipe_data.pkl","rb"))
+pipeline = pickle.load(open("https://github.com/I-AdityaGoyal/Titanic-Survival-Prediction-Model/blob/main/Streamlit%20Python%20File/pipe_data.pkl","rb"))
 
 
 def predict_survival(pclass, sex, age, fare, embarked, family_size):
